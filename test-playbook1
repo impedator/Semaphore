@@ -1,0 +1,7 @@
+---
+- hosts: clmdev562
+  remote_user: root
+  tasks:
+  - name: test task1
+	ping
+
